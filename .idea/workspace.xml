@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03ac73b1-401e-43b2-968c-2827e32c891f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+      <command value="eval mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" />
+    </option>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584346585169</updated>
-      <workItem from="1584346588365" duration="859000" />
+      <workItem from="1584346588365" duration="1308000" />
     </task>
     <servers />
   </component>
@@ -75,10 +82,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584346622341" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1584347359481">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1584347535848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584347359481" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584347535848" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1584347535848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584347535848" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1584347535848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584347535848" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1584347535848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584347535848" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1584347945685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584347945685" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1584346627431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
