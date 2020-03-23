@@ -5,6 +5,7 @@ public class App {
     }
 
     public double divide(double a, double b) throws ArithmeticException{
-        return 0;
+        if(b == 0) throw new ArithmeticException("division by zero is forbidden");
+        return a / b;
     }
 }
