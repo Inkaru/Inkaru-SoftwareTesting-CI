@@ -3,6 +3,7 @@ jdk: openjdk8
 sudo: false
 
 script:
+  - "set -e"
   - "mvn cobertura:cobertura"
 
 after_success:
