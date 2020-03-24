@@ -10,18 +10,35 @@ public class App {
     }
 
     public double substract(double a, double b){
-        return 0;
+        return a-b;
     }
+
     public double multiply(double a, double b){
-        return 0;
+        return a*b;
     }
+
     public int toInteger(double a){
-        return 0;
+        int res = (int) a;
+        return res;
     }
+
     public int roundedNumber(double a){
-        return 0;
+        int superior = (int) a+1;
+        int inferior = (int) a;
+        if((superior-a)<=(a-inferior)){
+            return superior;
+        }
+        return inferior;
     }
-    public int modulo(double a, double b){
-        return 0;
+    public int modulo(double a, double b) throws ArithmeticException {
+        int aConverted = (int) a;
+        int bConverted = (int) b;
+        if((aConverted!=a)||(bConverted!=b)){
+            throw new ArithmeticException("modulo with float is forbidden");
+        }
+        if(bConverted==0){
+            throw new ArithmeticException("modulo by zero is forbidden");
+        }
+        return aConverted % bConverted;
     }
 }
