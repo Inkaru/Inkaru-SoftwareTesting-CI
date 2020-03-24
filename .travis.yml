@@ -3,8 +3,8 @@ jdk: openjdk8
 sudo: false
 
 script:
-  - "mvn cobertura:check"
-  - "mvn cobertura:cobertura"
+  - "mvn test"
 
 after_success:
+  - "mvn cobertura:cobertura"
   - bash <(curl -s https://codecov.io/bash)
