@@ -9,5 +9,8 @@
         <module name="SoftwareTesting-CI" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SoftwareTesting-CI" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
