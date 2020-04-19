@@ -14,36 +14,36 @@ public class TestIntegration {
     }
 
     @Test
-    public void integration1_Exception() {
+    public void addDivException() {
         Exception exception = assertThrows(ArithmeticException.class, () -> calculator.add(5, calculator.divide(2, 0)));
         String expectedMessage = "division by zero is forbidden";
         assertEquals(exception.getMessage(), expectedMessage);
     }
 
     @Test
-    public void integration1_Result() {
+    public void addDiv() {
         assertEquals(5.5, calculator.add(5, calculator.divide(1, 2)));
     }
 
     @Test
-    public void integration2_Exception() {
+    public void addModException() {
         Exception exception = assertThrows(ArithmeticException.class, () -> calculator.add(3, calculator.modulo(2, 0)));
         String expectedMessage = "modulo by zero is forbidden";
         assertEquals(exception.getMessage(), expectedMessage);
     }
 
     @Test
-    public void integration2_Result() {
+    public void addMod() {
         assertEquals(3, calculator.substract(5, calculator.modulo(14, 6)));
     }
 
     @Test
-    public void integration3() {
+    public void toIntLog() {
         assertEquals(3, calculator.toInteger(calculator.log(1024)));
     }
 
     @Test
-    public void integration4() {
+    public void quadraticExpression() {
         int a = 3;
         int b = 6;
         int c = 9;
@@ -55,7 +55,7 @@ public class TestIntegration {
     }
 
     @Test
-    public void integration5() {
+    public void sqrtPow() {
         assertEquals(4, calculator.sqrt(calculator.pow(4,2)));
     }
 
